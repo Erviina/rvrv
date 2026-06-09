@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A premium digital birthday scrapbook handcrafted with love for my best friend.">
+  <title>Happy Birthday, Naila Jenipa! 🎀</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sparkle canvas overlay for custom particle effects -->
+  <canvas id="sparkle-canvas"></canvas>
+
+  <!-- ================= SECTION 1: HERO ================= -->
+  <section class="hero-sec" id="sec-hero">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 15%; left: 10%; animation-delay: 0s;">🌸</div>
+      <div class="floating-doodle" style="top: 25%; right: 15%; animation-delay: 2s;">✨</div>
+      <div class="floating-doodle" style="bottom: 20%; left: 15%; animation-delay: 1s;">🎀</div>
+      <div class="floating-doodle" style="bottom: 30%; right: 10%; animation-delay: 3s;">💖</div>
+    </div>
+    
+    <div class="hero-container">
+      <div class="hero-polaroid-container">
+        <!-- Pink Washi Tape decoration -->
+        <div class="washi-tape pink" style="top: -10px; left: 35%; width: 110px;"></div>
+        <div class="hero-polaroid">
+          <img src="hero.jpeg" alt="Happy Birthday Portrait">
+          <span class="caption">Birthday Girl! ✨</span>
+        </div>
+      </div>
+      
+      <div class="hero-content">
+        <h1>Happy Birthday, <span class="friend-name">Naila Jenipa</span> 🎀</h1>
+        <h2>Today is all about you.</h2>
+        <p>Thank you for being part of so many beautiful memories and stories.</p>
+        <button class="btn-premium" id="btn-open-scrapbook">
+          Open My Scrapbook <span>📖</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 2: INTRO ================= -->
+  <section class="intro-sec reveal" id="sec-intro">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 20%; left: 8%;">🧸</div>
+      <div class="floating-doodle" style="bottom: 15%; right: 12%;">🌸</div>
+    </div>
+    
+    <div class="intro-card">
+      <!-- Decorative washi tape at angles -->
+      <div class="washi-tape lavender" style="top: -12px; left: -20px; width: 100px; transform: rotate(-15deg);"></div>
+      <div class="washi-tape pink" style="bottom: -10px; right: -15px; width: 90px; transform: rotate(10deg);"></div>
+      
+      <span class="intro-doodle">💕</span>
+      <h3>Hi you 💕</h3>
+      <p>haiii nailaa<br>this is ervina anak baikk hehe.</p>
+      <p>sorry gada yg spesial dari aku <br>aku cuma bisa bilang, aku slalu disini nai kapanpun kamu butuh aku. cari aku ketika kamu mau cerita, everything</p>
+      <span class="scroll-indicator">Scroll down ↓</span>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 3: OUR MEMORIES ================= -->
+  <section class="gallery-sec" id="sec-memories">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 10%; right: 8%;">✨</div>
+      <div class="floating-doodle" style="bottom: 10%; left: 8%;">📷</div>
+    </div>
+    
+    <h2 class="section-title">Ga banyak Foto bareng 📸</h2>
+    
+    <div class="gallery-grid">
+      <!-- Polaroid 1 -->
+      <div class="polaroid-wrapper reveal" style="transition-delay: 0.1s;">
+        <div class="washi-tape pink" style="top: -12px; left: 30%; width: 100px;"></div>
+        <div class="polaroid-item">
+          <img src="memory1.jpeg" alt="Memory One">
+          <p class="caption">"lucu bgt naik kora-kora"</p>
+        </div>
+      </div>
+      
+      <!-- Polaroid 2 -->
+      <div class="polaroid-wrapper reveal" style="transition-delay: 0.2s;">
+        <div class="washi-tape lavender" style="top: -15px; left: 25%; width: 95px; transform: rotate(5deg);"></div>
+        <div class="polaroid-item">
+          <img src="memory2.jpeg" alt="Memory Two">
+          <p class="caption">"ibu ibu banget"</p>
+        </div>
+      </div>
+      
+      <!-- Polaroid 3 -->
+      <div class="polaroid-wrapper reveal" style="transition-delay: 0.3s;">
+        <div class="washi-tape mint" style="top: -10px; left: 35%; width: 110px; transform: rotate(-8deg);"></div>
+        <div class="polaroid-item">
+          <img src="memory3.jpeg" alt="Memory Three">
+          <p class="caption">"Core memory"</p>
+        </div>
+      </div>
+      
+      <!-- Polaroid 4 -->
+      <div class="polaroid-wrapper reveal" style="transition-delay: 0.4s;">
+        <div class="washi-tape peach" style="top: -12px; left: 28%; width: 100px;"></div>
+        <div class="polaroid-item">
+          <img src="memory4.jpg" alt="Memory Four">
+          <p class="caption">"No explanation needed"</p>
+        </div>
+      </div>
+      
+      <!-- Polaroid 5 -->
+      <div class="polaroid-wrapper reveal" style="transition-delay: 0.5s;">
+        <div class="washi-tape pink" style="top: -15px; left: 32%; width: 100px; transform: rotate(6deg);"></div>
+        <div class="polaroid-item">
+          <img src="memory5.jpg" alt="Memory Five">
+          <p class="caption">"Best times together"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 4: THINGS YOU DON'T REALIZE ================= -->
+  <section class="realize-sec" id="sec-realize">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 20%; left: 10%;">🌷</div>
+      <div class="floating-doodle" style="bottom: 15%; right: 15%;">✨</div>
+    </div>
+    
+    <h2 class="section-title">🌷Please love yourself always🌷</h2>
+    
+    <div class="sticky-stack">
+      <!-- Note 1 -->
+      <div class="realize-note reveal" style="transition-delay: 0.1s;">
+        <div class="pushpin"></div>
+        <p>• kamu always beautiful nailaa jenipa.</p>
+      </div>
+      
+      <!-- Note 2 -->
+      <div class="realize-note reveal" style="transition-delay: 0.2s;">
+        <div class="pushpin"></div>
+        <p>• jangan takut untuk bercerita.</p>
+      </div>
+      
+      <!-- Note 3 -->
+      <div class="realize-note reveal" style="transition-delay: 0.3s;">
+        <div class="pushpin"></div>
+        <p>• kamu spesial, jangan insecure terus.</p>
+      </div>
+      
+      <!-- Note 4 -->
+      <div class="realize-note reveal" style="transition-delay: 0.4s;">
+        <div class="pushpin"></div>
+        <p>• You are stronger than you think.</p>
+      </div>
+      
+      <!-- Note 5 -->
+      <div class="realize-note reveal" style="transition-delay: 0.5s;">
+        <div class="pushpin"></div>
+        <p>• You are loved more than you know.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 5: CHAOTIC MOMENTS ================= -->
+  <section class="chaotic-sec" id="sec-chaotic">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 15%; right: 10%;">🤡</div>
+      <div class="floating-doodle" style="bottom: 25%; left: 12%;">🎈</div>
+    </div>
+    
+    <h2 class="section-title">Semangatt naii Aku Support Kamu 🤡</h2>
+    
+    <div class="chaotic-container">
+      <!-- Card 1 -->
+      <div class="evidence-card reveal" style="transition-delay: 0.1s; transform: rotate(-2deg);">
+        <div class="paperclip"></div>
+        <h4>naiii</h4>
+        <p>smoga kita slalu puas menikmati porsi milik kita, tanpa iri pada orang lain.</p>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="evidence-card reveal" style="transition-delay: 0.3s; transform: rotate(3deg);">
+        <div class="paperclip"></div>
+        <h4>in this one life</h4>
+        <p>Smoga ga salah pilih pasangan.</p>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="evidence-card reveal" style="transition-delay: 0.5s; transform: rotate(-1deg);">
+        <div class="paperclip"></div>
+        <h4>hehehe</h4>
+        <p>Support aku juga nai, kaloo aku ketemu badai di kehidupan ku tolong peluk aku nai, tolong tetep ada di samping ku</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 6: LETTER ================= -->
+  <section class="letter-sec" id="sec-letter">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 10%; left: 5%;">🌸</div>
+      <div class="floating-doodle" style="bottom: 10%; right: 5%;">🧸</div>
+    </div>
+    
+    <h2 class="section-title">Dear <span class="friend-name">Naila Jenipa</span>, 📝</h2>
+    
+    <div class="letter-desk reveal">
+      <div class="washi-tape lavender" style="top: -12px; left: 35px; width: 110px;"></div>
+      <div class="washi-tape peach" style="bottom: -10px; right: 45px; width: 100px;"></div>
+      
+      <span class="letter-flower t-r">🌸</span>
+      <span class="letter-flower b-l">🌷</span>
+      
+      <!-- Editable notebook paper -->
+      <div class="notebook-paper" id="editable-letter" contenteditable="true" spellcheck="false">Happy birthday naiii, aku ngetik nya jadi sedih terharu
+        setelah menginjak dewasa kehidupan isinya doa, doa, doa, dan harapan. Di umur segini emang lagi rawan hilang Semangatt
+        smoga semesta slalu memberimu kemudahan atass segala urusanmu, smoga doamu slalu terkabul satu persatu, smoga langkah kaki mu diringankan dan pundakmu dikuatkan
+        smoga segala urusanmu di permudah, dan smoga kamu di kelilingi orang-orang baik dimana pun kamu berda
+        Nikmati masa muda mu sebagai perempuan cantik, pergilah ke semua tempat yg mau kamu kunjungi, coba smua makanan yg kamu mau dan beli apapun yg kamu suka. 
+        massa muda cuma sekali, nikmati hidup untuk diri sendiri
+
+        hidup adalah perjalanan belajar tanpa akhir. kadang kita melukai, kadang juga kita yg terluka. semua orang pernah salah langkah, keliru dalam mengambil keputusan
+        atau bahkan gagal dalam memahami sudut pandang orang lain. tapi hidup bukan tentang sempurna. melainkan tentang belajar, saling memaafkan dan tumbuh. teruslah rendah hati,
+        jadilah pemaaf dan jangn berhenti memperbaiki diri
+        kalo kamu lagi cape dan down cari aku naii, aku support kamu
+
+With all my love,
+Your Best Friend 💖</div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 7: OPEN WHEN ================= -->
+  <section class="open-when-sec" id="sec-open-when">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 15%; right: 8%;">💌</div>
+      <div class="floating-doodle" style="bottom: 15%; left: 8%;">✨</div>
+    </div>
+    
+    <h2 class="section-title">Open When You Need This 💌</h2>
+    
+    <div class="envelopes-grid">
+      <!-- Envelope 1 -->
+      <div class="envelope-wrapper reveal" id="env-motivation">
+        <div class="envelope color-1">
+          <div class="envelope-flap"></div>
+          <div class="envelope-card">
+            <p>mungkin bukan sekarang, tapi nanti dimasa yg akan datang. kamu akan menikmati doa-doa yg slama ini kamu ulang-ulang</p>
+          </div>
+          <div class="envelope-front">
+            <span class="envelope-title">Need Motivation</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Envelope 2 -->
+      <div class="envelope-wrapper reveal" id="env-sad" style="transition-delay: 0.15s;">
+        <div class="envelope color-2">
+          <div class="envelope-flap"></div>
+          <div class="envelope-card">
+            <p>don't worry! kesulitan yg kamu rasakan dalam perjalanan ini adalah bagian dari proses yg akan mengantarkanmu pada doa-doamu</p>
+          </div>
+          <div class="envelope-front">
+            <span class="envelope-title">Feeling Sad</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Envelope 3 -->
+      <div class="envelope-wrapper reveal" id="env-support" style="transition-delay: 0.3s;">
+        <div class="envelope color-3">
+          <div class="envelope-flap"></div>
+          <div class="envelope-card">
+            <p> harus tetep yakin!!
+              bahwa langkah kecil yg kita usahakan setiap hari itu tidak akan pernah sia-sia
+            </p>
+          </div>
+          <div class="envelope-front">
+            <span class="envelope-title">Need Support</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Envelope 4 -->
+      <div class="envelope-wrapper reveal" id="env-laugh" style="transition-delay: 0.45s;">
+        <div class="envelope color-4">
+          <div class="envelope-flap"></div>
+          <div class="envelope-card">
+            <p>senyum kamu maniss naii, ketemu aku aja kalo mau ketawa 🤪</p>
+          </div>
+          <div class="envelope-front">
+            <span class="envelope-title">Need A Laugh</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 8: REASONS YOU ARE SPECIAL ================= -->
+  <section class="reasons-sec" id="sec-reasons">
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 20%; left: 5%;">✨</div>
+      <div class="floating-doodle" style="bottom: 10%; right: 8%;">💖</div>
+    </div>
+    
+    <h2 class="section-title">Reasons You Are Special ✨</h2>
+    
+    <div class="reasons-board">
+      <div class="reason-note reveal" style="transition-delay: 0.05s;"><div class="pushpin"></div><p>jangan takut untuk cerita</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.1s;"><div class="pushpin"></div><p>kamu punya hati yg baik nai</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.15s;"><div class="pushpin"></div><p>smoga energi mu lebih banyak</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.2s;"><div class="pushpin"></div><p>kamu temen yg paling diem</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.25s;"><div class="pushpin"></div><p>kamu ga banyak tingkah, it's good</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.3s;"><div class="pushpin"></div><p>calon CEO</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.35s;"><div class="pushpin"></div><p>aku suka dengerin kamu cerita</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.4s;"><div class="pushpin"></div><p>You stand up for the people you love.</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.45s;"><div class="pushpin"></div><p>Your energy lights up any room.</p></div>
+      <div class="reason-note reveal" style="transition-delay: 0.5s;"><div class="pushpin"></div><p>You are uniquely and beautifully you.</p></div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION 9: FINAL PAGE ================= -->
+  <section class="final-sec" id="sec-final">
+    <!-- Confetti canvas layered specifically for this ending card -->
+    <canvas class="confetti-canvas" id="canvas-final-confetti"></canvas>
+    
+    <div class="scrapbook-bg">
+      <div class="floating-doodle" style="top: 15%; left: 8%; animation-delay: 1s;">✨</div>
+      <div class="floating-doodle" style="top: 25%; right: 10%; animation-delay: 3s;">🎈</div>
+      <div class="floating-doodle" style="bottom: 25%; left: 12%; animation-delay: 0s;">💖</div>
+      <div class="floating-doodle" style="bottom: 15%; right: 15%; animation-delay: 2s;">🎂</div>
+    </div>
+    
+    <div class="final-container">
+      <div class="final-polaroid reveal">
+        <div class="washi-tape pink" style="top: -12px; left: 30%; width: 110px; transform: rotate(-5deg);"></div>
+        <img src="final-photo.jpeg" alt="Final Friendship Polaroid">
+      </div>
+      
+      <div class="final-content reveal" style="transition-delay: 0.2s;">
+        <h2>Thank you for being part of my story.</h2>
+        <h3>Happy Birthday 🎂</h3>
+        <p>I hope this year brings you everything you deserve.</p>
+        <button class="btn-premium" id="btn-replay">
+          Replay Memories 🔄
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
